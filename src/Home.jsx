@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./components/Header";
 import GameRoulette from "./components/GameRoulette";
 import BetContainer from "./components/BetContainer";
+import GameHistoryColor from "./components/GameHistoryColor";
 const Home = () => {
   return (
     <div className="game-container">
@@ -16,6 +17,7 @@ const Home = () => {
                   <BetContainer />
                 </div>
               </div>
+              <GameHistoryColor />
             </div>
           </div>
         </div>

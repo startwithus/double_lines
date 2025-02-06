@@ -1,6 +1,7 @@
 import React from "react";
 import { MdOutlineVolumeOff, MdOutlineVolumeUp } from "react-icons/md";
 import { IoIosArrowBack, IoMdSettings } from "react-icons/io";
+import "./header.css";
 const Header = () => {
   return (
     <div className="game-header">
