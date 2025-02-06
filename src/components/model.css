@@ -196,6 +196,15 @@
   background-color: #000;
 }
 
+.game-number-button__btn:hover {
+  background-color: #fff;
+  border-radius: 5px; /* Optional: hover effect ke liye smooth look */
+}
+
+.game-number-button__btn:hover {
+  color: black !important;
+  transition: color 0.3s ease;
+}
 .game-number-input {
   align-items: flex-start;
   display: flex;
@@ -214,7 +223,7 @@
   align-items: center;
   display: flex;
   justify-content: center;
-  font-size: 8px;
+  font-size: 7px;
   font-weight: 700;
 }
 .tooltip-box {
@@ -236,6 +245,8 @@
   margin-left: 0.5rem;
 }
 .bet-input {
+  display: flex;
+  text-align: center;
   background-color: initial;
   font-size: 13px;
   font-style: normal;
@@ -255,6 +266,9 @@
   display: flex;
   justify-content: space-evenly;
 }
+.game-coefficien-button__btn:hover {
+  border: 2px solid yellow;
+}
 .game-coefficien-button__btn {
   align-items: center;
   display: flex;
@@ -267,6 +281,7 @@
   font-size: 11px;
   font-weight: 600;
 }
+
 .green {
   background: linear-gradient(144.64deg, #26756a -37.72%, #17d1b0 125.87%);
 }
@@ -366,8 +381,79 @@
 }
 .game-user {
   position: absolute;
-  right: 3rem;
-  bottom: 12.3rem;
+  right: 3.66rem;
+  height: 12rem;
+  margin-top: 1rem;
+}
+.game-user__col {
+  display: flex;
+}
+.game-user-header {
+  display: flex;
+  gap: 1rem;
+}
+.user-meme-no {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.game-user__header--count {
+  align-items: center;
+  border: 0.0625rem solid rgba(0, 0, 0, 0.3);
+  border-radius: 0.9375rem;
+  box-shadow: inset 0.0625rem 0.0625rem 0.25rem rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: row;
+  height: 1.4rem;
+  justify-content: center;
+  justify-content: space-between;
+  min-width: 4rem;
+  /* opacity: 0.5; */
+  padding: 0 0.625rem;
+  will-change: transform;
+}
+.game-user__emodji {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 1rem;
+  min-width: 2rem;
+}
+.game-user__header--count > span {
+  color: #e8eef2;
+  font-size: 0.5rem;
+  font-weight: 700;
+}
+.game-user__header--sum {
+  color: #000;
+  font-size: 11px;
+  font-weight: 700;
+  line-height: 0.9375rem;
+  /* opacity: 0.5; */
+  text-align: right;
+  display: flex;
+  align-items: center;
+}
+.game-user__list {
+  /* border-left: 1px solid rgba(0, 0, 0, 0.1); */
+  height: 100%;
+  margin: 0;
+  /* opacity: 0.5; */
+  padding: 0 0 0 0.9375rem;
+}
+.game-user__list > li {
+  align-items: center;
+  display: flex;
+  font-size: 10px;
+  font-weight: 700;
+  height: 1rem;
+  justify-content: space-between;
+  line-height: 1.875rem;
+  list-style-type: none;
+  padding-bottom: 0.25rem;
+  width: 100%;
 }
 @media screen and (min-width: 0px) and (orientation: landscape) {
   .game-template:before {

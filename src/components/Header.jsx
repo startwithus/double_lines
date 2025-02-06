@@ -12,7 +12,7 @@ const Header = () => {
       <div className="game-header-balance-title">Balance:</div>
       <div className="game-header-balance">
         <div className="game-header-balance-text">5678</div>
-        <div className={`game-header-balance-delta `}></div>
+        {/* <div className={`game-header-balance-delta `}></div> */}
       </div>
       <div className="game-header-buttons">
         <div className="game-header-button">
