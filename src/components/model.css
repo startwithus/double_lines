@@ -36,7 +36,7 @@
   animation: game-roulette__brum 3s ease 0s 1 normal forwards;
 }
 .game-roulette__brum > div {
-  padding: 0 0.3125rem;
+  padding: 0 0.2rem;
   position: relative;
   z-index: 5;
 }
@@ -93,8 +93,8 @@
     0.125rem 0.125rem 0.1875rem rgba(0, 0, 0, 0.25);
   display: flex;
   justify-content: stretch;
-  min-height: 4.66rem;
-  min-width: 4.66rem;
+  min-height: 5rem;
+  min-width: 5rem;
   padding: 0.06875rem;
   position: relative;
   transition: all 0.1s ease;

@@ -90,7 +90,7 @@
 .game-header-back:hover,
 .game-header-button:hover {
   background-color: #fff;
-  border-radius: 5px; /* Optional: hover effect ke liye smooth look */
+  border-radius: 5px;
 }
 
 .game-header-back:hover svg,

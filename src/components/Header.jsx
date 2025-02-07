@@ -5,7 +5,7 @@ import SettingModal from "../components/modals/SettingModel";
 import "./header.css";
 import Limits from "./modals/Limits";
 import RulesModal from "./modals/RulesModal";
-const Header = () => {
+const Header = ({ info }) => {
   const [isSoundOn, setIsSoundOn] = useState(true);
   const [settingModal, setSettingModal] = useState(false);
   const [openLimits, setOpenLimits] = useState(false);
@@ -34,7 +34,7 @@ const Header = () => {
         <div className="game-header-logo"></div>
         <div className="game-header-balance-title">Balance:</div>
         <div className="game-header-balance">
-          <div className="game-header-balance-text">5678</div>
+          <div className="game-header-balance-text">{info.balance}</div>
           {/* <div className={`game-header-balance-delta `}></div> */}
         </div>
         <div className="game-header-buttons">
