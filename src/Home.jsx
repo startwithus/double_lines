@@ -16,6 +16,7 @@ const Home = () => {
   const decodedQuery = decodeURIComponent(rawQuery);
   const [loading, setLoading] = useState(true);
   const [amount, setAmount] = useState("10.00");
+  const [isBetting, setIsBetting] = useState(false);
   // Initial multiplier
 
   let queryParams = {};
@@ -56,10 +57,11 @@ const Home = () => {
       console.error("Invalid socket ID or game ID in query params.");
     }
   }, [queryParams.id]);
+
   // if socket not connected
-  if (loading || !socketConnected) {
-    return <Loader message={"Connecting..."} />;
-  } // if user not connected
+  // if (loading || !socketConnected) {
+  //   return <Loader message={"Connecting..."} />;
+  // } // if user not connected
   // if (Object.keys(info)?.length === 0 && !loading) {
   //   return <UserNot />;
   // }
@@ -69,8 +71,8 @@ const Home = () => {
         <Header info={info} />
         <div className="main_container">
           <div className="game-template">
-            <div className=".game-template:before">
-              <div className=".game-template:after">
+            <div className="game-template:before">
+              <div className="game-template:after">
                 <GameRoulette />
                 <div className="game-control">
                   <BetContainer />

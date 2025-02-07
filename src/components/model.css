@@ -297,6 +297,67 @@
 .game-coefficien-button__btn.active {
   border: 0.1125rem solid #fff; /* Show white border when active */
 }
+.game-coefficien-button__btn.red.active {
+  background: linear-gradient(140.26deg, #74050b -29.29%, #e7525b 129.55%);
+}
+
+.game-coefficien-button__btn.green.active {
+  background: linear-gradient(144.64deg, #14584e -37.72%, #0dbf9f 125.87%);
+}
+
+.game-coefficien-button__btn.black.active {
+  background: linear-gradient(134.69deg, #000 -68.33%, #34353d 115.01%),
+    linear-gradient(134.69deg, #121212 -68.33%, #414146 115.01%),
+    linear-gradient(144.64deg, #14584e -37.72%, #0dbf9f 125.87%),
+    linear-gradient(144.64deg, #26756a -37.72%, #17d1b0 125.87%);
+}
+.game-coefficien-button__btn.active span {
+  opacity: 0.5 !important;
+}
+
+/* .game-coefficien-button__btn:active {
+  background: linear-gradient(140.26deg, #74050b -29.29%, #e7525b 129.55%),
+    linear-gradient(140.26deg, #e12732 -29.29%, #f16069 129.55%),
+    linear-gradient(144.64deg, #14584e -37.72%, #0dbf9f 125.87%),
+    linear-gradient(144.64deg, #26756a -37.72%, #17d1b0 125.87%);
+} */
+.game-go-button {
+  border: 2px solid transparent; /* Default border */
+  transition: border-color 0.3s ease, background-color 0.3s ease;
+}
+
+.game-go-button.red {
+  border: 2px solid white; /* White border when red is selected */
+}
+
+.game-go-button.green {
+  border: 2px solid white;
+}
+
+.game-go-button.black {
+  border: 2px solid white;
+}
+.game-go-button.red {
+  color: #fff;
+}
+.game-go-button.red:hover {
+  border: 2px solid yellow;
+}
+.game-go-button.black:hover {
+  border: 2px solid yellow;
+}
+.game-go-button.green:hover {
+  border: 2px solid yellow;
+}
+
+.game-go-button.green {
+  color: #fff;
+}
+
+.game-go-button.black {
+  color: #fff;
+}
+
 .dont-value {
   background: rgba(0, 0, 0, 0.1);
   border: 0.0625rem solid #fff;

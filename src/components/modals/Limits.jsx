@@ -12,7 +12,7 @@ const Limits = ({ handleLimits, isClose }) => {
           >
             Limits
           </div>
-          <div onClick={isClose}>
+          <div onClick={handleLimits}>
             <IoMdClose
               className="close"
               style={{ fontSize: "18px", fontWeight: "bolder" }}

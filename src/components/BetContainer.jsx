@@ -21,7 +21,7 @@ const BetContainer = () => {
             <input
               type="text"
               className="bet-input"
-              value="100"
+
               // onKeyDown={(e) =>
               //   ["e", "E", "+", "-"].includes(e.key) && e.preventDefault()
               // }

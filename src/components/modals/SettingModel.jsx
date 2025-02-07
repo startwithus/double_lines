@@ -1,5 +1,5 @@
 import React from "react";
-import "../modals/model.css";
+import "../modals/modelMenu.css";
 import { IoClose } from "react-icons/io5";
 import { BsFillRecord2Fill } from "react-icons/bs";
 import { GrNotes } from "react-icons/gr";
@@ -53,8 +53,9 @@ function SettingModel({ handleSetting, handleLimits, handleRules }) {
             </span>
           </div>
         </div>
+
         <div className="soun-rane">
-          <div style={{ display: "flex", gap: "1rem" }}>
+          <div style={{ display: "flex", gap: "3px" }}>
             <div>
               <HiSpeakerWave />
             </div>
@@ -63,7 +64,7 @@ function SettingModel({ handleSetting, handleLimits, handleRules }) {
           <div>1</div>
         </div>
         <div className="soun-rane">
-          <div style={{ display: "flex", gap: "1rem" }}>
+          <div style={{ display: "flex", gap: "3px" }}>
             <div>
               <HiSpeakerWave />
             </div>
