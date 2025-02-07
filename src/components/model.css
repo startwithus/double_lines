@@ -266,9 +266,7 @@
   display: flex;
   justify-content: space-evenly;
 }
-.game-coefficien-button__btn:hover {
-  border: 2px solid yellow;
-}
+
 .game-coefficien-button__btn {
   align-items: center;
   display: flex;
@@ -293,7 +291,12 @@
   background: linear-gradient(134.69deg, #121212 -68.33%, #414146 115.01%),
     linear-gradient(144.64deg, #26756a -37.72%, #17d1b0 125.87%);
 }
-
+.game-coefficien-button__btn:hover {
+  border: 2px solid yellow;
+}
+.game-coefficien-button__btn.active {
+  border: 0.1125rem solid #fff; /* Show white border when active */
+}
 .dont-value {
   background: rgba(0, 0, 0, 0.1);
   border: 0.0625rem solid #fff;
